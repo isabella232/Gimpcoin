@@ -59,7 +59,7 @@ static const uint256 hashGenesisBlockTestNet("INDA SOURCE u can find Gimpcoin's 
 
 
 inline int64_t PastDrift(int64_t nTime)   { return nTime - 1 * 30 * 60; } // up to 30 minutes from the past
-inline int64_t FutureDrift(int64_t nTime) { return nTime + 1 * 30 * 60; } // up to 1 day from the future
+inline int64_t FutureDrift(int64_t nTime) { return nTime + 1 * 30 * 60; } // up to 30 minutes from the future
 
 extern int64_t devCoin;
 extern CScript COINBASE_FLAGS;
